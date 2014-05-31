@@ -5,6 +5,8 @@ Maintainer: Mateusz Łukasik <mati75@linuxmint.pl>
 Build-Depends: debhelper (>= 9), intltool
 Standards-Version: 3.9.5
 Homepage: http://www.linuxmint.pl/
+Vcs-Browser: https://github.com/linuxmintpl/mint-artwork-lxde
+Vcs-Git: https://github.com/linuxmintpl/mint-artwork-lxde.git
 
 Package: mint-artwork-lxde
 Architecture: all

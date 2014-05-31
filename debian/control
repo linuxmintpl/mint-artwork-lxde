@@ -1,0 +1,15 @@
+Source: mint-artwork-lxde
+Section: x11
+Priority: optional
+Maintainer: Mateusz Łukasik <mati75@linuxmint.pl>
+Build-Depends: debhelper (>= 9), intltool
+Standards-Version: 3.9.4
+Homepage: http://www.linuxmint.com/
+
+Package: mint-artwork-lxde
+Architecture: all
+Depends: ${misc:Depends}, mint-backgrounds-maya, shimmer-themes
+Description: Artwork for Linux Mint LXDE
+ Artwork for Linux Mint LXDE, contained the wallpaper and others specific images and 
+ logos.
+

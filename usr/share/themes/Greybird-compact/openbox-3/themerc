@@ -1,0 +1,204 @@
+# hey.  i tried to organize this to make it somewhat easier to read and 
+# locate things, but laziness and frustration are powerful enemies.
+#
+# there are three main categories: menus, osd, and windows
+# each has four subcategories: colors, geometry, text, and textures
+#
+# i then tried to group the definitions together based on the objects 
+# or type of objects they modify but sometimes got lazy and just sorted 
+# them alphabetically (if i sorted them at all).
+#
+# feel free to copy this or whatever.  i don't care.
+
+
+
+
+# --- menus --- #
+# colors
+menu.border.color: #1f1f1f
+menu.items.text.color: white
+menu.items.active.text.color: white
+menu.items.active.disabled.text.color: #a0a0a0
+menu.items.disabled.text.color: #a0a0a0
+menu.title.text.color: white
+menu.separator.color: #a0a0a0
+
+
+# geometry
+menu.border.width: 1
+menu.overlap.x: 2
+menu.overlap.y: 0
+menu.separator.width: 1
+menu.separator.padding.width: 15
+menu.separator.padding.height: 5
+
+
+# text
+#menu.items.font:
+#menu.title.text.font:
+menu.title.text.justify: center
+
+
+# textures
+menu.items.bg: solid flat
+menu.items.bg.color: #686868
+
+menu.items.active.bg: gradient vertical flat border
+menu.items.active.bg.color: #343434
+menu.items.active.bg.colorTo: #2a2a2a
+menu.items.active.bg.border.color: #1f1f1f
+
+menu.title.bg: gradient vertical flat border
+menu.title.bg.color: #343434
+menu.title.bg.colorTo: #2a2a2a
+menu.title.bg.border.color: #1f1f1f
+
+
+
+
+# --- osd --- #
+# colors
+#osd.border.color: white
+osd.label.text.color: #3c3c3c
+#osd.hilight.bg.color: #343434
+#osd.unhilight.bg.color: #a0a0a0
+
+
+# geometry
+osd.border.width: 0
+
+
+# text
+#osd.label.text.font:
+
+
+# textures
+osd.bg: gradient vertical flat
+osd.bg.color: #e0e0e0
+osd.bg.colorTo: #cecece
+
+osd.label.bg: gradient vertical flat border
+osd.label.bg.color: #c7c7c7
+osd.label.bg.colorTo: #b6b6b6
+osd.label.bg.border.color: #878787
+
+osd.hilight.bg: gradient vertical flat border
+osd.hilight.bg.color: #e0e0e0
+osd.hilight.bg.colorTo: #cecece
+osd.hilight.bg.border.color: #3c3c3c
+
+osd.unhilight.bg: gradient vertical flat border
+osd.unhilight.bg.color: #c7c7c7
+osd.unhilight.bg.colorTo: #b6b6b6
+osd.unhilight.bg.border.color: #878787
+
+
+
+
+# --- windows --- #
+# colors
+window.active.border.color: #6f6f6f
+window.inactive.border.color: #9c9c9c
+
+window.active.title.separator.color: #cecece
+window.inactive.title.separator.color: #cecece
+
+window.active.client.color: #cecece
+window.inactive.client.color: #cecece
+
+window.active.label.text.color: #6f6f6f
+window.inactive.label.text.color: #9c9c9c
+
+window.active.button.disabled.image.color: #a0a0a0
+window.inactive.button.disabled.image.color: #a0a0a0
+
+window.active.button.hover.image.color: #202020
+window.inactive.button.hover.image.color: #202020
+
+window.active.button.pressed.image.color: white
+window.inactive.button.pressed.image.color: white
+
+window.active.button.unpressed.image.color: #808080
+window.inactive.button.unpressed.image.color: #ababab
+
+window.active.button.toggled.hover.image.color: #202020
+window.inactive.button.toggled.hover.image.color: #202020
+
+window.active.button.toggled.pressed.image.color: white
+window.inactive.button.toggled.pressed.image.color: white
+
+window.active.button.toggled.unpressed.image.color: #808080
+window.inactive.button.toggled.unpressed.image.color: #ababab
+
+
+# geometry
+border.width: 1
+padding.width: 2
+padding.height: 2
+window.client.padding.width: 0
+window.client.padding.height: 0
+window.handle.width: 0
+
+
+# text
+window.label.text.justify: center
+window.active.label.text.font:shadow=y:shadowtint=-60:shadowoffset=1
+window.inactive.label.text.font:shadow=y:shadowtint=-80:shadowoffset=1
+
+
+# textures
+window.active.grip.bg: solid flat
+window.active.grip.bg.color: #b6b6b6
+window.inactive.grip.bg: solid flat
+window.inactive.grip.bg.color: #b6b6b6
+
+window.active.handle.bg: solid flat
+window.active.handle.bg.color: #b6b6b6
+window.inactive.handle.bg: solid flat
+window.inactive.handle.bg.color: #b6b6b6
+
+window.active.title.bg: gradient vertical flat
+window.active.title.bg.color: #e0e0e0
+window.active.title.bg.colorTo: #cecece
+window.inactive.title.bg: gradient vertical flat
+window.inactive.title.bg.color: #e0e0e0
+window.inactive.title.bg.colorTo: #cecece
+
+window.active.label.bg: parentrelative
+window.inactive.label.bg: parentrelative
+
+window.active.button.disabled.bg: parentrelative
+window.inactive.button.disabled.bg: parentrelative
+
+window.active.button.hover.bg: parentrelative 
+window.inactive.button.hover.bg: parentrelative
+
+window.active.button.pressed.bg: parentrelative
+window.inactive.button.pressed.bg: parentrelative
+
+window.active.button.unpressed.bg: parentrelative
+window.inactive.button.unpressed.bg: parentrelative
+
+window.active.button.toggled.hover.bg: parentrelative
+window.inactive.button.toggled.hover.bg: parentrelative
+
+window.active.button.toggled.pressed.bg: parentrelative
+window.inactive.button.toggled.pressed.bg: parentrelative
+
+window.active.button.toggled.unpressed.bg: parentrelative
+window.inactive.button.toggled.unpressed.bg: parentrelative
+
+#window.active.button.toggled.hover.bg: parentrelative border
+#window.active.button.toggled.hover.bg.border.color: black
+#window.inactive.button.toggled.hover.bg: parentrelative border
+#window.inactive.button.toggled.hover.bg.border.color: black
+
+#window.active.button.toggled.pressed.bg: parentrelative border
+#window.active.button.toggled.pressed.bg.border.color: white
+#window.inactive.button.toggled.pressed.bg: parentrelative border
+#window.inactive.button.toggled.pressed.bg.border.color: white
+
+#window.active.button.toggled.unpressed.bg: parentrelative border
+#window.active.button.toggled.unpressed.bg.border.color: #777777
+#window.inactive.button.toggled.unpressed.bg: parentrelative border
+#window.inactive.button.toggled.unpressed.bg.border.color: #979797

@@ -1,0 +1,146 @@
+!# Mint-X-Openbox
+!# Last updated 11 Jan 2011
+
+# Fonts
+
+*.font: shadow=n
+!#menu.items.font:shadow=y:shadowtint=0:shadowoffset=1
+
+!# general stuff
+
+border.width: 1
+padding.width: 3
+padding.height: 2d6d6d6
+window.handle.width: 3
+window.client.padding.width: 0
+menu.overlap: 2
+*.justify: center
+
+!# lets set our damn shadows here, eh?
+
+*.bg.highlight: 50
+*.bg.shadow:    05
+
+window.active.title.bg.highlight: 35
+window.active.title.bg.shadow:    05
+
+window.inactive.title.bg.highlight: 30
+window.inactive.title.bg.shadow:    05
+
+window.*.grip.bg.highlight: 50
+window.*.grip.bg.shadow:    30
+
+window.*.handle.bg.highlight: 50
+window.*.handle.bg.shadow:    30
+
+!# Menu settings
+
+menu.border.color: #aaaaaa
+menu.border.width: 1
+
+menu.title.bg: solid flat
+menu.title.bg.color: #dddddd
+menu.title.text.color: #111111
+
+menu.items.bg: Flat Solid
+menu.items.bg.color: #ffffff
+menu.items.text.color: #111111
+menu.items.disabled.text.color: #aaaaaa
+
+menu.items.active.bg: Flat Gradient splitvertical border
+
+menu.items.active.bg.color: #b9d494
+menu.items.active.bg.color.splitTo: #b9d494
+
+menu.items.active.bg.colorTo: #89ae55
+menu.items.active.bg.colorTo.splitTo: #89ae55
+menu.items.active.bg.border.color: #666666
+menu.items.active.text.color: #ffffff
+
+menu.separator.width: 1
+menu.separator.padding.width: 1
+menu.separator.padding.height: 3
+menu.separator.color: #aaaaaa
+
+!# set handles here and only the once?
+
+window.*.handle.bg: Raised solid
+window.*.handle.bg.color: #eaebec
+
+window.*.grip.bg: Raised solid
+window.*.grip.bg.color: #eaebec
+
+!# Active
+
+window.*.border.color: #dddddd
+
+window.active.title.separator.color: #d6d6d6
+
+*.title.bg: Raised Gradient splitvertical
+*.title.bg.color: #dddddd
+*.title.bg.color.splitTo: #eeeeee
+*.title.bg.colorTo: #dddddd
+*.title.bg.colorTo.splitTo: #d7d7d7
+
+window.active.label.bg: Parentrelative
+window.active.label.text.color: #999999
+
+window.active.button.*.bg: Parentrelative
+
+window.active.button.*.bg.color: #dddddd
+window.active.button.*.bg.colorTo: #d6d6d6
+
+window.active.button.*.bg.border.color: #49678B
+window.active.button.*.image.color: #999999
+
+window.active.button.hover.bg.color: #b9d494
+window.active.button.hover.bg.color.splitTo: #b9d494
+window.active.button.hover.bg.colorTo: #89ae55
+window.active.button.hover.bg.colorTo.splitTo: #89ae55
+window.active.button.hover.bg.border.color: #4A658C
+window.active.button.hover.image.color: #555555
+
+window.active.button.pressed.bg: Parentrelative
+
+!# inactive
+
+window.inactive.border.color: #dddddd
+window.inactive.title.separator.color: #d6d6d7
+
+window.inactive.title.bg: Raised Gradient splitvertical
+window.inactive.title.bg.color: #dddddd
+window.inactive.title.bg.color.splitTo: #eeeeee
+window.inactive.title.bg.colorTo: #dddddd
+window.inactive.title.bg.colorTo.splitTo: #d7d7d7
+
+window.inactive.label.bg: Parentrelative
+window.inactive.label.text.color: #bbbbbb
+
+window.inactive.button.*.bg: Parentrelative
+window.inactive.button.*.image.color: #bbbbbb
+
+!# osd (pop ups and what not, dock?)
+
+osd.border.width: 1
+osd.border.color:  #aaaaaa
+
+osd.bg: flat border gradient splitvertical
+osd.bg.color: #F0EFEE
+osd.bg.color.splitto: #f5f5f4
+osd.bg.colorTo: #EAEBEC
+osd.bg.colorTo.splitto: #E7E5E4
+
+osd.bg.border.color: #ffffff
+
+osd.label.bg: parentrelative
+osd.label.bg.color: #efefef
+osd.label.bg.border.color: #9c9e9c
+
+osd.label.text.color: #777777
+!# yeah whatever, this is fine anyhoo?
+osd.hilight.bg: flat vertical gradient 
+osd.hilight.bg.color: #b9d494
+osd.hilight.bg.colorTo: #89ae55
+osd.unhilight.bg: flat vertical gradient
+osd.unhilight.bg.color: #BABDB6
+osd.unhilight.bg.colorTo: #efefef

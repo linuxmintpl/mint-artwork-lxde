@@ -1,3 +1,9 @@
+mint-artwork-lxde (17.0~rc1.1) qiana; urgency=medium
+
+  * Fix depends.
+
+ -- Mateusz Łukasik <mati75@linuxmint.pl>  Tue, 08 Jul 2014 15:57:41 +0200
+
 mint-artwork-lxde (17.0~rc1) qiana; urgency=medium
 
   * Start releasing for qiana.

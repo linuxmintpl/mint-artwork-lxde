@@ -1,26 +1,14 @@
-mint-artwork-lxde (17.0~rc1.1) qiana; urgency=medium
+mint-artwork-lxde (15.0.1) olivia; urgency=low
 
-  * Fix depends.
+  * Updated openbox theme.
 
- -- Mateusz Łukasik <mati75@linuxmint.pl>  Tue, 08 Jul 2014 15:57:41 +0200
+ -- Mateusz Łukasik <mati75@linuxmint.pl>  Fri, 03 May 2013 22:58:25 +0200
 
-mint-artwork-lxde (17.0~rc1) qiana; urgency=medium
+mint-artwork-lxde (15.0.0) olivia; urgency=low
 
-  * Start releasing for qiana.
+  * Updated for Olivia.
 
- -- Mateusz Łukasik <mati75@linuxmint.pl>  Mon, 07 Jul 2014 19:35:58 +0200
-
-mint-artwork-lxde (16.0.0) petra; urgency=low
-
-  * Updated for Petra.
-
- -- Mateusz Łukasik <mati75@linuxmint.pl>  Fri, 15 Nov 2013 18:03:39 +0100
-
-mint-artwork-lxde (13.2.0) maya; urgency=low
-
-  * Resync with testing version.
-
- -- Mateusz Łukasik <mati75@linuxmint.pl>  Fri, 27 Sep 2013 14:55:38 +0200
+ -- Mateusz Łukasik <mati75@linuxmint.pl>  Wed, 10 Apr 2013 14:36:12 +0200
 
 mint-artwork-lxde (13.0.1) maya; urgency=low
 

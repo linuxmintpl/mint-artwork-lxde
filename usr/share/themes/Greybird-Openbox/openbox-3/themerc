@@ -15,12 +15,12 @@
 
 # --- menus --- #
 # colors
-menu.border.color: #1f1f1f
-menu.items.text.color: white
+menu.border.color: #9C9C9C
+menu.items.text.color: #424242
 menu.items.active.text.color: white
 menu.items.active.disabled.text.color: #a0a0a0
 menu.items.disabled.text.color: #a0a0a0
-menu.title.text.color: white
+menu.title.text.color: #CCCCCC
 menu.separator.color: #a0a0a0
 
 
@@ -30,18 +30,18 @@ menu.overlap.x: 2
 menu.overlap.y: 0
 menu.separator.width: 1
 menu.separator.padding.width: 15
-menu.separator.padding.height: 5
+menu.separator.padding.height: 10
 
 
 # text
 #menu.items.font:
 #menu.title.text.font:
-menu.title.text.justify: center
+menu.title.text.justify: left
 
 
 # textures
 menu.items.bg: solid flat
-menu.items.bg.color: #686868
+menu.items.bg.color: #CECECE
 
 menu.items.active.bg: gradient vertical flat border
 menu.items.active.bg.color: #343434
@@ -79,7 +79,7 @@ osd.bg.colorTo: #cecece
 
 osd.label.bg: gradient vertical flat border
 osd.label.bg.color: #c7c7c7
-osd.label.bg.colorTo: #b6b6b6
+osd.label.bg.colorTo: #DFD7CF
 osd.label.bg.border.color: #878787
 
 osd.hilight.bg: gradient vertical flat border
@@ -89,16 +89,20 @@ osd.hilight.bg.border.color: #3c3c3c
 
 osd.unhilight.bg: gradient vertical flat border
 osd.unhilight.bg.color: #c7c7c7
-osd.unhilight.bg.colorTo: #b6b6b6
+osd.unhilight.bg.colorTo: #DFD7CF
 osd.unhilight.bg.border.color: #878787
 
-
+window.label.text.justify: center
+window.active.label.text.font:shadow=y:shadowtint=-30:shadowoffset=1
+window.inactive.label.text.font:shadow=y:shadowtint=-30:shadowoffset=1
+menu.items.font:
+menu.title.text.font:shadow=n:shadowtint=70
 
 
 # --- windows --- #
 # colors
-window.active.border.color: #6f6f6f
-window.inactive.border.color: #9c9c9c
+window.active.border.color: #908880
+window.inactive.border.color: #8A8A8A
 
 window.active.title.separator.color: #cecece
 window.inactive.title.separator.color: #cecece
@@ -106,8 +110,8 @@ window.inactive.title.separator.color: #cecece
 window.active.client.color: #cecece
 window.inactive.client.color: #cecece
 
-window.active.label.text.color: #6f6f6f
-window.inactive.label.text.color: #9c9c9c
+window.active.label.text.color: #212121
+window.inactive.label.text.color: #7D7D7D
 
 window.active.button.disabled.image.color: #a0a0a0
 window.inactive.button.disabled.image.color: #a0a0a0
@@ -133,36 +137,36 @@ window.inactive.button.toggled.unpressed.image.color: #ababab
 
 # geometry
 border.width: 1
-padding.width: 2
-padding.height: 2
+padding.width: 4
+padding.height: 4
 window.client.padding.width: 0
 window.client.padding.height: 0
-window.handle.width: 0
+window.handle.width: 2
 
 
 # text
 window.label.text.justify: center
-window.active.label.text.font:shadow=y:shadowtint=-60:shadowoffset=1
-window.inactive.label.text.font:shadow=y:shadowtint=-80:shadowoffset=1
+#window.active.label.text.font:
+#window.inactive.label.text.font:
 
 
 # textures
 window.active.grip.bg: solid flat
-window.active.grip.bg.color: #b6b6b6
+window.active.grip.bg.color: #FFD4A9
 window.inactive.grip.bg: solid flat
-window.inactive.grip.bg.color: #b6b6b6
+window.inactive.grip.bg.color: #DFD7CF
 
 window.active.handle.bg: solid flat
-window.active.handle.bg.color: #b6b6b6
+window.active.handle.bg.color: #FFD4A9
 window.inactive.handle.bg: solid flat
-window.inactive.handle.bg.color: #b6b6b6
+window.inactive.handle.bg.color: #DFD7CF
 
-window.active.title.bg: gradient vertical flat
-window.active.title.bg.color: #e0e0e0
-window.active.title.bg.colorTo: #cecece
-window.inactive.title.bg: gradient vertical flat
-window.inactive.title.bg.color: #e0e0e0
-window.inactive.title.bg.colorTo: #cecece
+window.active.title.bg: flat
+window.active.title.bg.color: #CECECE
+window.active.title.separator.color: #CECECE
+window.inactive.title.bg: flat
+window.inactive.title.bg.color: #CECECE
+window.inactive.title.separator.color: #CECECE
 
 window.active.label.bg: parentrelative
 window.inactive.label.bg: parentrelative

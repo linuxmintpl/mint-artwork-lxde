@@ -1,6 +1,7 @@
 mint-artwork-lxde (17.0) UNRELEASED; urgency=medium
 
   * Add depends to rebecca.
+  * Bump standards version.
 
  -- Mateusz Łukasik <mati75@linuxmint.pl>  Mon, 17 Nov 2014 15:58:59 +0100
 

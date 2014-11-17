@@ -10,7 +10,7 @@ Vcs-Git: https://github.com/linuxmintpl/mint-artwork-lxde.git
 
 Package: mint-artwork-lxde
 Architecture: all
-Depends: ${misc:Depends}, mint-backgrounds-qiana, lubuntu-artwork
+Depends: ${misc:Depends}, mint-backgrounds-rebecca, lubuntu-artwork
 Description: Artwork for Linux Mint LXDE
  Artwork for Linux Mint LXDE, contained the wallpaper and others specific images and 
  logos.

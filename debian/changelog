@@ -1,3 +1,10 @@
+mint-artwork-lxde (17.1) rebecca; urgency=medium
+
+  * Drop old wallpapers.
+  * Bump standards version.
+
+ -- Mateusz Łukasik <mati75@linuxmint.pl>  Thu, 04 Dec 2014 14:02:53 +0100
+
 mint-artwork-lxde (17.0) rebecca; urgency=medium
 
   * Add depends to rebecca.

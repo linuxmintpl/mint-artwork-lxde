@@ -1,3 +1,9 @@
+mint-artwork-lxde (17.1.1) UNRELEASED; urgency=medium
+
+  * Clear package.
+
+ -- Mateusz Łukasik <mati75@linuxmint.pl>  Fri, 05 Dec 2014 17:25:22 +0100
+
 mint-artwork-lxde (17.1) rebecca; urgency=medium
 
   * Drop old wallpapers.

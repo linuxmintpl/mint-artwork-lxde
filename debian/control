@@ -10,7 +10,9 @@ Vcs-Git: https://github.com/linuxmintpl/mint-artwork-lxde.git
 
 Package: mint-artwork-lxde
 Architecture: all
-Depends: ${misc:Depends}, lubuntu-artwork
+Depends: ${misc:Depends}, gtk2-engines, gtk2-engines-pixbuf,
+         gtk2-engines-murrine, gtk3-engines-unico
+Breaks: lubuntu-artwork, lubuntu-artwork-15-04
 Suggests: mint-backgrounds-rebecca
 Description: Artwork for Linux Mint LXDE
  Artwork for Linux Mint LXDE, contained the wallpaper and others specific images and 

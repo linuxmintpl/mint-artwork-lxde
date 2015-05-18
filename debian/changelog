@@ -1,3 +1,9 @@
+mint-artwork-lxde (2015.05.18) UNRELEASED; urgency=medium
+
+  * Initial build for betsy
+
+ -- Mateusz Łukasik <mati75@linuxmint.pl>  Mon, 18 May 2015 19:41:08 +0200
+
 mint-artwork-lxde (17.1.1) rebecca; urgency=medium
 
   * Clear package.
